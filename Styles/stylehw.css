@@ -1,0 +1,23 @@
+h1 {
+    background: aqua;
+    color: darkblue;
+    text-align: center;
+}
+h2 {
+    background: yellow;
+    color: rgb(2, 27, 105);
+    text-align: center;
+}
+p {
+    background: silver;
+    color: black;
+    text-align: justify;
+}
+ul {
+    background: #cdaf7e;
+    color: darkviolet;
+}
+img {
+    margin: 0 auto;
+    display: block;
+}

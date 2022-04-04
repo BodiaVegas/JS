@@ -1,0 +1,22 @@
+h1{
+    background: #cdcd49;
+    color: #181dcd;
+    text-align: center;
+}
+h2{
+    background: #cdaf7e;
+    color:crimson;
+    text-align: center;
+}
+p{
+    background: #cdcdbe;
+    color: darkblue;
+}
+li{
+    background: rgb(158, 225, 215);
+    color: darkviolet;
+}
+img{
+    width: 200px;
+    margin: 0 auto;  display : block;;
+}
