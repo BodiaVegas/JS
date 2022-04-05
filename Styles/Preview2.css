@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+.target {
+    height: 600px;
+    width: 600px;
+    background: silver;
+    /*padding: 10px 20px 30px 40px;*/
+    /*box-sizing: border-box;*/
+    /*margin: 100px;*/
+    /*height: 50vh;*/
+    /*width: 50vw;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2  {
+    margin: 0;}
+
+.wrap {
+    height: 200px;
+    /*margin: 0;*/
+    width: 100px;
+    background: yellow;
+}
+p{
+    margin: 0;}

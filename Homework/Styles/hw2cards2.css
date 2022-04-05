@@ -1,0 +1,47 @@
+.bigbox {
+    height: 600px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.smallbox {
+    height: 350px;
+    width: 250px;
+    background: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-star {
+    text-align: center;
+    display: block;
+    color:silver;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.heading {
+    color:darksalmon ;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.txt {
+    color: darkgray;
+    text-align: center;
+    margin-top: 30px;
+}
+.link {
+    height: 30px;
+    width: 100px;
+    background:lightseagreen;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+}
