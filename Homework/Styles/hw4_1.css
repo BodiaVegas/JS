@@ -32,7 +32,7 @@ body {
     display: flex;
 }
 .b,.c,.d {
-    width: 33.3%;
+    width: 33.34%;
     height: 100%;
     background: blue;
     border: 1px solid black;
