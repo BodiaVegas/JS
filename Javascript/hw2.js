@@ -45,27 +45,27 @@ else if (day>=11 && day<=20) {console.log('second decade')}
 else if (day>=21 && day<=31) {console.log('third decade')}
 else {console.log('Impossible')}
 // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
-let xxx = prompt("what is ordinal number of the week?");
+let xxx = +prompt("what is ordinal number of the week?");
 switch (xxx) {
-    case '1': console.log('Monday Visiting Lecture');
+    case 1: console.log('Monday Visiting Lecture');
     break;
-    case "2": console.log('Tuesday Doing my homework');
+    case 2: console.log('Tuesday Doing my homework');
     break;
-    case '3': console.log('Wednesday visiting second lecture');
+    case 3: console.log('Wednesday visiting second lecture');
     break;
-    case '4': console.log('Thursday Doing homework');
+    case 4: console.log('Thursday Doing homework');
     break;
-    case '5': console.log('Friday Rest day');
+    case 5: console.log('Friday Rest day');
     break;
-    case '6': console.log('Saturday cleaning the room');
+    case 6: console.log('Saturday cleaning the room');
     break;
-    case '7': console.log('Sunday Rest day');
+    case 7: console.log('Sunday Rest day');
     break;
     default: console.log('Error')
 }
 //     - Користувач вводить або має два числа.
-let xx = prompt('Enter the first figure');
-let yy = prompt('Enter the Second figure')
+let xx = +prompt('Enter the first figure');
+let yy = +prompt('Enter the Second figure')
 //         Потрібно знайти та вивести максимальне число з тих двох .
 if (xx > yy) {console.log(xx)}
 else if (yy > xx) {console.log(yy)}

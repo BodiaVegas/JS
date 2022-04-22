@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+    document.write(`<div>`);
+    for (let i=0; i<10; i++)
+    {document.write(`<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, distinctio?</div>`);}
+    document.write(`</div>`);
+    // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+    document.write(`<div>`);
+    for (let i=0; i<10; i++)
+    {document.write(`<div>Lorem ipsum dolor sit amet, ${i}</div>`);}
+    document.write(`</div>`);
+    // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+    document.write(`<div>`);
+    a = 0;
+    while (a < 20) {
+        document.write(`<div>Lorem ipsum dolor sit amet</div>`);
+        a++;
+    }
+    document.write(`</div>`);
+    // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+    document.write(`<div>`);
+    a = 0;
+    while (a < 20) {
+        document.write(`<div>Lorem ipsum dolor sit amet ${a}</div>`);
+        a++;
+    }
+    document.write(`</div>`);
+    // - Використовуючи данні з масиву, за допомоги document.write та циклу побудувати структуру по шаблону
+    // Масив:
+    document.write(`<ul>`);
+
+        let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+        for (let r = 0; r < listOfItems.length; r++) {document.write(`<li>${listOfItems [r]}</li>`);}
+
+document.write(`</ul>`)
+    //
+    // ШАБЛОН:
+
+    // <!--
+    //             і тд інші об'єкти масиву
+    //              ...
+    //              ...
+    //              ...
+    //         -->
+    //     </ul>
+
+    // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
+    //
+    // -----------------------------------------------
+    //
+    //     Використовуючи данні з масиву, за допомоги document.write та циклу
+    // побудувати структуру по шаблону  Зробити адекватну стилізацію
+    // Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
+    //
+    let products = [
+        {
+            title: 'milk',
+            price: 22,
+            image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+        },
+        {
+            title: 'juice',
+            price: 27,
+            image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+        },
+        {
+            title: 'tomato',
+            price: 47,
+            image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+        },
+        {
+            title: 'tea',
+            price: 15,
+            image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+        },
+    ];
+
+
+
+    document.write(`<div>`);
+    for (const product of products) {
+        document.write('<div className="product-card">');
+            <h3 className="product-title">title. Price - price </h3>
+            <img src="IMAGE" alt="" className="product-image">
+        </div>
+    }
+
+    // Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
+
+
+</script>
+</body>
+</html>
